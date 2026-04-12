@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "kdrtracker",
+  "version": "1.0.0",
+  "name": "KDR Tracker",
+  "description": "Tracks player kills, deaths, KDR, and kill logs.",
+  "authors": ["dx"],
+  "license": "MIT",
+  "icon": "icon.png",
+  "entrypoints": {
+    "main": [
+      "com.dx.kdrtracker.KDRTrackerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
